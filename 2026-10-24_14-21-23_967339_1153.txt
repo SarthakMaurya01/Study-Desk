@@ -1,0 +1,11 @@
+# Terminal Full Output
+# Terminal: default
+# Command: curl -fsS http://127.0.0.1:3000/ -o /tmp/studydesk-restart-check.html && grep -o '<title>[^<]*' /tmp/studydesk-restart-check.html | head -1
+# PID: 1153
+# Timestamp: 2026-10-24_14-21-23.967339
+# Original Length: 247 characters
+# ----------------------------------------
+
+[32mubuntu@sandbox:~/icsecomp$ [0mcurl -fsS http://127.0.0.1:3000/ -o /tmp/studydesk-restart-check.html && grep -o '<title>[^<]*' /tmp/studydesk-restart-check.html | head -1
+<title>Study Desk · ICSE Class 10
+[32mubuntu@sandbox:~/icsecomp$ [0m

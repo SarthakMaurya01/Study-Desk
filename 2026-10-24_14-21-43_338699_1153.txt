@@ -1,0 +1,12 @@
+# Terminal Full Output
+# Terminal: default
+# Command: curl -fL --retry 2 --max-time 120 --silent --show-error https://raw.githubusercontent.com/tesseract-ocr/tessdata_fast/main/hin.traineddata -o public/tesseract/lang/hin.traineddata && sha256sum public/tesseract/lang/hin.traineddata && ls -lh public/tesseract/lang/hin.traineddata
+# PID: 1153
+# Timestamp: 2026-10-24_14-21-43.338699
+# Original Length: 538 characters
+# ----------------------------------------
+
+[32mubuntu@sandbox:~/icsecomp$ [0mcurl -fL --retry 2 --max-time 120 --silent --show-error https://raw.githubusercontent.com/tesseract-ocr/tessdata_fast/main/hin.traineddata -o public/tesseract/lang/hin.traineddata && sha256sum public/tesseract/lang/hin.traineddata && ls -lh public/tesseract/lang/hin.traineddata
+4c73ffc59d497c186b19d1e90f5d721d678ea6b2e277b719bee4e2af12271825  public/tesseract/lang/hin.traineddata
+-rw-r--r-- 1 ubuntu ubuntu 1.1M Oct 24 14:21 public/tesseract/lang/hin.traineddata
+[32mubuntu@sandbox:~/icsecomp$ [0m

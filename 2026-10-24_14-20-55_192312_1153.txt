@@ -1,0 +1,17 @@
+# Terminal Full Output
+# Terminal: default
+# Command: uname -m && df -h /home/ubuntu | tail -1 && printf 'wine: ' && (command -v wine || true) && printf 'docker: ' && (command -v docker || true) && printf '\nElectron package versions:\n' && npm view electron version && npm view electron-builder version && npm view electron-builder@26 version | tail -1
+# PID: 1153
+# Timestamp: 2026-10-24_14-20-55.192312
+# Original Length: 511 characters
+# ----------------------------------------
+
+[32mubuntu@sandbox:~/icsecomp$ [0muname -m && df -h /home/ubuntu | tail -1 && printf 'wine: ' && (command -v wine || true) && printf 'docker: ' && (command -v docker || true) && printf '\nElectron package versions:\n' && npm view electron version && npm view electron-builder version && npm view electron-builder@26 version | tail -1
+x86_64
+/dev/root        49G  9.4G   39G  20% /
+wine: docker: 
+Electron package versions:
+45.0.0
+26.18.0
+electron-builder@26.18.0 '26.18.0'
+[32mubuntu@sandbox:~/icsecomp$ [0m
